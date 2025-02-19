@@ -45,7 +45,7 @@ export default function CheckoutPage() {
                     <h3 className="font-medium">{item.name}</h3>
                     <p className="text-gray-500">Quantity: {item.quantity}</p>
                   </div>
-                  <p className="font-medium">${item.price * item.quantity}</p>
+                  <p className="font-medium">${+item.price * +item.quantity}</p>
                 </div>
               ))}
             </div>

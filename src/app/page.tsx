@@ -41,12 +41,12 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Delicious Food,
+            Delicious Food
             <br />
             Delivered Fast
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Your favorite meals delivered to your doorstep in minutes
+            {`Your favorite meals delivered to your doorstep in minutes`}
           </p>
           <button className="bg-white text-red-600 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors">
             <a href="#pi">Order Now</a>
@@ -133,7 +133,7 @@ export default function Home() {
             Ready to Order?
           </h2>
           <p className="text-xl mb-8">
-            Download our app and get 20% off on your first order!
+            {`Download our app and get 20% off on your first order!`}
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <button className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-900 transition-colors">

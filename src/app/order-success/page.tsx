@@ -32,7 +32,7 @@ export default function OrderSuccessPage() {
         </div>
         <h1 className="text-2xl font-bold mb-4">Order Confirmed!</h1>
         <p className="text-gray-600 mb-8">
-          Thank you for your order. We'll process it right away!
+          {`Thank you for your order. We'll process it right away!`}
         </p>
         <Link
           href="/"
